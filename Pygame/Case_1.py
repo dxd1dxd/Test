@@ -13,11 +13,11 @@ circle(screen, (0, 0, 0), (150, 150), 100, 2)
 #creating a mouth
 rect(screen, (0, 0, 0), (95, 200, 110, 20))
 #creating eyes
-circle(screen, ('#ff0000'), (100, 120), 20)
+circle(screen, (250, 0, 0), (100, 120), 20)
 circle(screen, (0, 0, 0), (100, 120), 22, 2)
 circle(screen, (0, 0, 0), (100, 120), 10)
 
-circle(screen, ('#ff0000'), (200, 120), 15)
+circle(screen, (250, 0, 0), (200, 120), 15)
 circle(screen, (0, 0, 0), (200, 120), 17, 2)
 circle(screen, (0, 0, 0), (200, 120), 7)
 
