@@ -89,6 +89,12 @@ surf_panda.blit(pygame.transform.rotate(surf_ear_left, 40), (0, -2))
 surf_ear_right = pygame.Surface.copy(surf_ear_left)
 surf_panda.blit(pygame.transform.rotate(surf_ear_right, 320), (100, -2))
 
+
+#create a head
+surf_head = pygame.Surface((140, 170))
+surf_head.fill(PINK)
+surf_panda.blit(surf_head, (17, 15))
+
 screen.blit(surf_panda, (432, 188))
 
 
